@@ -1,6 +1,8 @@
 package sistemaBiblioteca;
 
-public class Livro {
+import java.io.Serializable;
+
+public class Livro implements Serializable {
     private String isbn;
     private String titulo;
     private String autor;

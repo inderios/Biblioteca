@@ -16,11 +16,12 @@ public class TelaInicial extends JFrame {
             tela.definitEvento();
         });
     }
-    private JButton btnCadastroLivro, btnCadastroUsuario, btnEmprestimo;
+    private JButton btnCadastroLivro, btnCadastroUsuario, btnEmprestimo, btnSalvaTudo;
     SistemaBiblioteca sistemaBiblioteca;
 
     public TelaInicial() {
         sistemaBiblioteca = new SistemaBiblioteca();
+        sistemaBiblioteca.carregarTodos();
         setTitle("Sistema de Biblioteca");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -29,12 +30,14 @@ public class TelaInicial extends JFrame {
         btnCadastroLivro = new JButton("Cadastrar Livro");
         btnCadastroUsuario = new JButton("Cadastrar Usuário");
         btnEmprestimo = new JButton("Empréstimo de Livros");
+        btnSalvaTudo = new JButton("Salva tudo");
 
         // Adicionando os botões ao JFrame
-        setLayout(new GridLayout(3,0)); // Define o layout para organizar os botões
+        setLayout(new GridLayout(4,0)); // Define o layout para organizar os botões
         add(btnCadastroLivro);
         add(btnCadastroUsuario);
         add(btnEmprestimo);
+        add(btnSalvaTudo);
     }
     private void definitEvento() {
         btnCadastroUsuario.addActionListener(new ActionListener() {
@@ -55,6 +58,11 @@ public class TelaInicial extends JFrame {
                 emprestimoLivro.setVisible(true);
             }
         });
-
+        btnSalvaTudo.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                sistemaBiblioteca.salvarTodos();
+            }
+        });
     }
 }

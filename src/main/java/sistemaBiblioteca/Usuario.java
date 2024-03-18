@@ -1,9 +1,10 @@
 package sistemaBiblioteca;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class Usuario {
+public class Usuario implements Serializable {
     private String matricula;
     private String nome;
     private TipoUsuario tipoUsuario;
@@ -14,6 +15,7 @@ public class Usuario {
         this.tipoUsuario = tipoUsuario;
         livrosEmprestados = new ArrayList<>();
     }
+    //Feature Envy: essa metodo tá tomando o papel que outra classe poderia assumir.
     public boolean adicionarEmprestimo(Livro livro) {
         if (livrosEmprestados.contains(livro)) {
             return false; // Retorna false se o livro já estiver na lista
@@ -26,7 +28,7 @@ public class Usuario {
         if (livrosEmprestados.contains(livro)) {
             livrosEmprestados.remove(livro);
             return true;
-        }else{
+        } else {
             return false;
         }
     }

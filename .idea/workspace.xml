@@ -4,25 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb885335-887f-4bde-9551-e08bcc38c24f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CadastroLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CadastroUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/EmprestimoLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gui/TelaInicial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/SistemaBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/TipoUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sistemBibliotecaTest/LivroTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sistemBibliotecaTest/TestSistemaBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sistemBibliotecaTest/UsuarioTest.java" afterDir="false" />
+    <list default="true" id="eb885335-887f-4bde-9551-e08bcc38c24f" name="Changes" comment="Eu acho que está num estado funcional, aleluia, terminei isso.">
+      <change afterPath="$PROJECT_DIR$/livros" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dados/livros" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dados/usuarios" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sistemBibliotecaTest/SistemaBibliotecaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gui/TelaInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TelaInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/SistemaBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/SistemaBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sistemaBiblioteca/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sistemBibliotecaTest/TestSistemaBiblioteca.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2dWqCTRm59Ito6rIsRXRIELxHaP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,23 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.TelaInicial.executor": "Run",
-    "JUnit.LivroTest.executor": "Run",
-    "JUnit.TestSistemaBiblioteca.executor": "Run",
-    "JUnit.TestSistemaBiblioteca.pegarLivroTest.executor": "Run",
-    "JUnit.TestSistemaBiblioteca.setUp.executor": "Run",
-    "JUnit.UsuarioTest.executor": "Run",
-    "JUnit.UsuarioTest.testAdicionarEmprestimoERemoverEmprestimo.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.TelaInicial.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LivroTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SistemaBibliotecaTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SistemaBibliotecaTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SistemaBibliotecaTest.testDevolverLivro.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSistemaBiblioteca.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSistemaBiblioteca.pegarLivroTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSistemaBiblioteca.setUp.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSistemaBiblioteca.testDevolverLivro.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UsuarioTest.testAdicionarEmprestimoERemoverEmprestimo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -76,11 +74,17 @@
     <configuration name="TelaInicial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.TelaInicial" />
       <module name="Biblioteca" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LivroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SistemaBibliotecaTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -89,28 +93,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sistemBibliotecaTest" />
-      <option name="MAIN_CLASS_NAME" value="sistemBibliotecaTest.LivroTest" />
+      <option name="MAIN_CLASS_NAME" value="sistemBibliotecaTest.SistemaBibliotecaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSistemaBiblioteca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SistemaBibliotecaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sistemBibliotecaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sistemBibliotecaTest" />
-      <option name="MAIN_CLASS_NAME" value="sistemBibliotecaTest.TestSistemaBiblioteca" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SistemaBibliotecaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSistemaBiblioteca.pegarLivroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SistemaBibliotecaTest.testDevolverLivro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +117,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sistemBibliotecaTest" />
-      <option name="MAIN_CLASS_NAME" value="sistemBibliotecaTest.TestSistemaBiblioteca" />
-      <option name="METHOD_NAME" value="pegarLivroTest" />
+      <option name="MAIN_CLASS_NAME" value="sistemBibliotecaTest.SistemaBibliotecaTest" />
+      <option name="METHOD_NAME" value="testDevolverLivro" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSistemaBiblioteca.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSistemaBiblioteca.testDevolverLivro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +134,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="sistemBibliotecaTest" />
       <option name="MAIN_CLASS_NAME" value="sistemBibliotecaTest.TestSistemaBiblioteca" />
-      <option name="METHOD_NAME" value="setUp" />
+      <option name="METHOD_NAME" value="testDevolverLivro" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,10 +143,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TelaInicial" />
-        <item itemvalue="JUnit.TestSistemaBiblioteca" />
-        <item itemvalue="JUnit.TestSistemaBiblioteca.pegarLivroTest" />
-        <item itemvalue="JUnit.TestSistemaBiblioteca.setUp" />
-        <item itemvalue="JUnit.LivroTest" />
+        <item itemvalue="JUnit.SistemaBibliotecaTest (1)" />
+        <item itemvalue="JUnit.SistemaBibliotecaTest.testDevolverLivro" />
+        <item itemvalue="JUnit.SistemaBibliotecaTest" />
+        <item itemvalue="JUnit.TestSistemaBiblioteca.testDevolverLivro" />
       </list>
     </recent_temporary>
   </component>
@@ -168,9 +166,20 @@
       <option name="presentableId" value="Default" />
       <updated>1710134055860</updated>
     </task>
+    <task id="LOCAL-00001" summary="Eu acho que está num estado funcional, aleluia, terminei isso.">
+      <option name="closed" value="true" />
+      <created>1710188514333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710188514333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Eu acho que está num estado funcional, aleluia, terminei isso." />
+    <option name="LAST_COMMIT_MESSAGE" value="Eu acho que está num estado funcional, aleluia, terminei isso." />
   </component>
 </project>
